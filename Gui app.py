@@ -26,7 +26,7 @@ def runApps():
 canvas = Canvas(root,bg="#263D42")
 canvas.pack(fill="both", expand=True)
 
-frame = Frame(root, bg="white")
+frame = Frame(root, bg="blue")
 frame.place(relwidth=0.8, relheight=0.8, relx=0.1, rely=0.1)
 
 openFile = Button(root, text="Open File", padx=10,
